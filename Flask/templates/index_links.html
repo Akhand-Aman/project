@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Noble Laureates in Physics</title>
+        
+    </head>
+    <body>
+        <h1>This website contains dataset for noble laureates in Physics till date. The general information about the prize and various attributes of dataset are given on the about page. To view the table click on the data link below.</h1>
+        <p>Choose where you want to go:</p>
+        <ul>
+            <li><a href="{{ url_for('about') }}">Link To About page</a></li> <!--instead of 'about' if it is something else an error will be shown--> 
+            <li><a href="{{ url_for('data') }}">Link To Data page</a></li>
+        </ul>
+    </body>
+</html>

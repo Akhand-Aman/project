@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Table</title>
+        
+    </head>
+    <body>
+        <h1>Physics Laureates</h1>
+    <body>
+        <table>
+            <thead>
+                <tr><th>Id</th><th>Firstname</th><th>Surname</th><th>Born</th><th>Birth Location</th><th>Noble Received Year</th><th>Motivation</th><th>Organization name</th><th>Organization's Location</th></tr>
+            </thead>
+            <tbody>
+                {% for s in Physics_Laureates%}
+            <tr><td>{{ s[0] }}</td><td>{{ s[1] }}</td><td>{{ s[2] }}</td><td>{{ s[3] }}</td><td>{{ s[4] }}</td><td>{{ s[5] }}</td><td>{{ s[6] }}</td><td>{{ s[7] }}</td><td>{{ s[8] }}</td><td>{{ s[9] }}</td></tr>
+                {% endfor %}    
+            </tbody>
+        </table>
+    </body>
+</html>
+
