@@ -3,7 +3,7 @@
 
 
 ## Description
-This Flask web application demonstrates how to display a table and basic information on a webpage using HTML. The table is generated dynamically using data retrieved from an SQLite database in Python. The application uses Flask, a lightweight web framework for Python, to serve the HTML content.
+This Flask web application demonstrates how to display a table and basic information on a webpage using HTML. The table is generated dynamically using data retrieved from an SQLite database in Python. The application uses Flask, a lightweight web framework for Python, to serve the HTML content. The data set is related to the Physics Laureates from 2015 onwards. For refrence the raw dataset of all Laureates since the beginnning of this prize is included in this repository (by the name Laureates_all.csv).
 
 ## Features
 - Displays table dynamically generated from SQLite database

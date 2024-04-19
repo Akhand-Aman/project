@@ -1,0 +1,5 @@
+Flask==3.0.3
+numpy==1.26.4
+pandas==2.2.1
+sqlite3==3.43.1
+pathlib==1.0.1
