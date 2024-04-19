@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Physics Nobel Laureates Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px auto; /* Add space on both sides and center the content */
+            padding: 0 20px; /* Add padding on both sides */
+            max-width: 800px; /* Limit the maximum width of the content */
+        }
+        h1, h2 {
+            color: #333;
+            text-align: left; /* Align headings to the left */
+            margin-left: 20px; /* Add margin to the left */
+        }
+        p {
+            color: #666;
+            margin: 20px 0; /* Add vertical margin */
+            text-align: justify;
+            margin-left: 20px; /* Add margin to the left */
+        }
+        table {
+            width: 100%; /* Set table width to 100% */
+            border-collapse: collapse;
+            margin-top: 20px; /* Add space on top of the table */
+        }
+        th, td {
+            padding: 15px 18px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Source of Dataset</h1>
+    <p>The data presented on this website has been sourced from <a href="https://public.opendatasoft.com/explore/dataset/nobel-prize-laureates/table/?disjunctive.category">opendatasoft</a> and <a href="http://www.nobelprize.org/nobel_organizations/nobelmedia/nobelprize_org/developer/">NobelPrize</a></p>
+
+    <h1>Variables definition</h1>
+    <p>Following are the Definitions and Data Types of various fields used in the dataset</p>
+
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Data Type</th>
+        <th>Definition</th>
+      </tr>
+      <tr>
+        <td>Id</td>
+        <td>INT</td>
+        <td>Primary Key, Uniquely identifies the entries in table</td>
+      </tr>
+      <tr>
+        <td>First Name</td>
+        <td>TEXT</td>
+        <td>The given or first name of Noble Laureate</td>
+      </tr>
+      <tr>
+        <td>Surname</td>
+        <td>TEXT</td>
+        <td>Family name of the Noble Laureate</td>
+      </tr>
+      <tr>
+        <td>Born</td>
+        <td>DATE</td>
+        <td>Date of Birth of the Noble Laureate</td>
+      </tr>
+      <tr>
+        <td>Birth Location</td>
+        <td>TEXT</td>
+        <td>Country and City of Birth of the Noble Laureate</td>
+      </tr>
+      <tr>
+        <td>Nobel Received Year</td>
+        <td>DATE</td>
+        <td>Year when the Laureate received the Nobel Prize</td>
+      </tr>
+      <tr>
+        <td>Motivation</td>
+        <td>TEXT</td>
+        <td>Contribution for which Laureate received Nobel</td>
+      </tr>
+      <tr>
+        <td>Organization name</td>
+        <td>TEXT</td>
+        <td>Organization of the Nobel Laureate during the year when Noble was awarded</td>
+      </tr>
+      <tr>
+        <td>Organization's Location</td>
+        <td>TEXT</td>
+        <td>Country and City of the Organization of the Nobel Laureate when Nobel was awarded</td>
+      </tr>
+    </table>
+</body>
+</html>

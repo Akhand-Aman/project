@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nobel Laureates in Physics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .content {
+            max-width: 800px; /* Adjusted max-width */
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 0;
+        }
+        p {
+            color: #666;
+            text-align: justify; /* Changed to justify */
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        a {
+            display: block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Nobel Laureates in Physics</h1>
+        <p>Nobel Prize is one of the most prestigious awards. The Nobel Prizes were established by the will of Alfred Nobel, a Swedish inventor, engineer, and industrialist, in 1895. Nobel Prizes are awarded annually in several categories, including Physics, Chemistry, Medicine, Literature, Peace, and Economic Sciences. The Nobel Prizes recognize individuals or organizations that have made significant contributions to humanity in these fields.</p>
+        <p>The Nobel Prize in Physics is awarded annually by the Royal Swedish Academy of Sciences to individuals or groups who have made outstanding contributions to the field of physics. The Nobel Prize in Physics has recognized achievements across a wide range of subfields, including particle physics, condensed matter physics, astrophysics, and cosmology.</p>
+        <p>The following <b>About</b> link gives information regarding the source and fields of the dataset, and the <b>Data</b> tab links to the dataset of Physics laureates.</p> 
+        <ul>
+            <li><a href="{{ url_for('about') }}">About</a></li>
+            <li><a href="{{ url_for('data') }}">Data</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
