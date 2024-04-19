@@ -20,10 +20,9 @@ Before running the application, make sure you have following installed:
 1. Clone or download this repository to your local machine
 2. Clone the repository [https://github.com/Akhand-Aman/project].git
 3. Install the required dependencies using the command: pip install -r requirements.txt
-4. Configure the database path In the website.py file, locate the database configuration section. By default, it may look like this: 'C:\Users\sonup\Documents\GitHub\DAB111_project_Group_10\Main\database'
-5. Change 'path/to/your/database.db' to the desired path where you want to store your database file. For example: DATABASE_PATH = 'data/obesity_data.db'
-6. Run the application website.py The website should now be running locally. You can access it at http://localhost:5000 in your web browser.
-7. Navigate to the project directory in your terminal.
+4. Navigate to the folder where you downloaded this repository.
+5. Configure the database path In the app.py file, locate the database configuration section. By default, it may look like this: r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\Database'
+6. Change 'path/to/your/database.db' to the desired path where you want to store your database file. For example: DATABASE_PATH = 'data/Noble_Prize_Laureates.db'
 8. Run the Flask application by executing the following command:
     ```
     python app.py
