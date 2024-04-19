@@ -18,7 +18,7 @@ Before running the application, make sure you have following installed:
 
 ### Usage
 1. Clone or download this repository to your local machine
-2. Clone the repository https://github.com/krunalpatel2410/DAB111_project_Group_10.git
+2. Clone the repository [https://github.com/Akhand-Aman/project].git
 3. Install the required dependencies using the command: pip install -r requirements.txt
 4. Configure the database path In the website.py file, locate the database configuration section. By default, it may look like this: 'C:\Users\sonup\Documents\GitHub\DAB111_project_Group_10\Main\database'
 5. Change 'path/to/your/database.db' to the desired path where you want to store your database file. For example: DATABASE_PATH = 'data/obesity_data.db'
