@@ -18,7 +18,7 @@ Before running the application, make sure you have following installed:
 
 ### Usage
 1. Clone or download this repository to your local machine
-2. Clone the repository [https://github.com/Akhand-Aman/project].git
+2. Clone the repository https://github.com/Akhand-Aman/project.git
 3. Install the required dependencies using the command: pip install -r requirements.txt
 4. Navigate to the folder where you downloaded this repository.
 5. Configure the database path In the app.py file, locate the database configuration section. By default, it may look like this: r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\Database'
