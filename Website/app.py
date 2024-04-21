@@ -32,26 +32,6 @@ def data():
 
 
 
-@app.route('/')
-def map():
-    # Load the CSV file
-    df = pd.read_csv('Laureates_all.csv')
-    
-    # Create a Folium map centered around Europe
-    m = folium.Map(location=[51.1657, 10.4515], zoom_start=3)
-
-    # Add markers for each Nobel laureate
-    for _, row in df.iterrows():
-        folium.Marker([row['lat'], row['long']], 
-                      popup=f"{row['Firstname']} - {row['Year']} {row['Category']}",
-                      icon=folium.Icon(color='blue')).add_to(m)
-
-    # Save map to a temporary file
-    m.save('templates/map.html')
-
-    # Render the HTML template
-    return render_template('map.html')
-
 
 
 
