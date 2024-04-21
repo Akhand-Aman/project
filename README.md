@@ -21,8 +21,10 @@ Before running the application, make sure you have following installed:
 2. Clone the repository https://github.com/Akhand-Aman/project.git
 3. Install the required dependencies using the command: pip install -r requirements.txt
 4. Navigate to the folder where you downloaded this repository.
-5. Configure the database path In the app.py file, locate the database configuration section. By default, it may look like this: r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\Database'
-6. Change 'path/to/your/database.db' to the desired path where you want to store your database file. For example: DATABASE_PATH = 'data/Noble_Prize_Laureates.db'
+5. Configure the template path for index_links.html in the app.py file. By default the app object looks like this, `app = Flask(__name__, template_folder=r'C:\Users\AmanS\Downloads\projectmain\project-main\templates')`. Replace the path accrding to where you have saved the template folder.
+ path In the app.py file, locate the database configuration section. By default, it may look like this:   template_folder=r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\templates'
+6. Configure the database path In the app.py file, locate the database configuration section. By default, it may look like this: r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\Database'
+7. Change 'path/to/your/database.db' to the desired path where you want to store your database file. For example: DATABASE_PATH = 'data/Noble_Prize_Laureates.db'
 8. Run the Flask application by executing the following command:
     ```
     python app.py
