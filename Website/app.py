@@ -9,7 +9,7 @@ print(db_path)
 
 
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder=r'C:\Users\AmanS\OneDrive\Documents\GitHub\project\templates')
 
 @app.route("/")
 def index():
